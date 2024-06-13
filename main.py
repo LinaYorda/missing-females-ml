@@ -23,7 +23,7 @@ if choice == "Home":
     with open(html_file_path, 'r') as f:
         html_content = f.read()
     # Display the HTML file in the Streamlit app
-    st.components.v1.html(html_content, width=800, height=600)
+    st.components.html(html_content, width=800, height=600)
     
     st.header("Data Table")
     st.write("Here is the cleaned data table:")
