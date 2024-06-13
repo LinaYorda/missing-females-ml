@@ -5,6 +5,7 @@
 
 This project analyses data from missing Females in the USA, downloaded from [Kaggle](https://www.kaggle.com/datasets/ahmedemadeldin/missing-females-in-us/data). I have performed Exploratory Data Analysis(EDA), KMeans, and Spatial clustering. 
 
+#### Project Streamlit App : 
 
 ## Project's Folder Structure
 
