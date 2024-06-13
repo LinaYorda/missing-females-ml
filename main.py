@@ -3,6 +3,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.cluster import KMeans
+import streamlit.components.v1 as components
 
 missing=pd.read_csv("data_csv/missing_famales_dropped_NaN.csv")
 
@@ -23,7 +24,7 @@ if choice == "Home":
     with open(html_file_path, 'r') as f:
         html_content = f.read()
     # Display the HTML file in the Streamlit app
-    st.components.html(html_content, width=800, height=600)
+    components.html(html_content, width=800, height=600)
     
     st.header("Data Table")
     st.write("Here is the cleaned data table:")
